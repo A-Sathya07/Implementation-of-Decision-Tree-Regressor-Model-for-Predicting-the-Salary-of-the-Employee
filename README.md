@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Step 1: Load dataset
-data = pd.read_csv(r'C:\Users\israv\Downloads\Salary.csv')
 
 # Step 2: Select features and target
 X = data[['Level']]  # Independent variable
